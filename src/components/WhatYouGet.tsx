@@ -1,5 +1,4 @@
 import { Check } from "lucide-react";
-import SectionCTA from "@/components/SectionCTA";
 
 const items = [
   "Acesso à imersão ao vivo completa",
@@ -27,7 +26,6 @@ const WhatYouGet = () => {
             </li>
           ))}
         </ul>
-        <SectionCTA text="Garantir minha vaga agora" />
       </div>
     </section>
   );

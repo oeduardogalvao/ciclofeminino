@@ -1,5 +1,4 @@
 import { Check } from "lucide-react";
-import SectionCTA from "@/components/SectionCTA";
 
 const audience = [
   "Mulheres que sentem que nunca rendem o suficiente",
@@ -24,7 +23,6 @@ const ForWhoSection = () => {
             </li>
           ))}
         </ul>
-        <SectionCTA text="Participar da imersão" />
       </div>
     </section>
   );
