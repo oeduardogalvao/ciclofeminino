@@ -22,6 +22,42 @@ const OfferSection = () => {
             Imersão Ciclos Femininos & Produtividade
           </h2>
 
+          {/* Bloco de transformação */}
+          <div className="mb-8 text-left">
+            <h3 className="text-lg md:text-xl font-serif text-foreground mb-4 text-center">
+              Depois da imersão, você será capaz de:
+            </h3>
+            <ul className="space-y-2.5 max-w-md mx-auto">
+              {[
+                "Entenda por que sua energia muda ao longo do mês",
+                "Pare de se culpar por não conseguir manter o mesmo ritmo todos os dias",
+                "Identifique em qual fase do seu ciclo você está",
+                "Adapte sua rotina ao momento do seu corpo",
+                "Aproveite seus períodos de maior foco e criatividade",
+                "Reduza a exaustão ao respeitar seu próprio ritmo",
+                "Use óleos essenciais como suporte para foco, energia e equilíbrio emocional",
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-2.5 font-sans-body text-sm text-foreground/85">
+                  <span className="text-primary mt-0.5">•</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Bloco de valor */}
+          <div className="mb-8 max-w-md mx-auto text-center space-y-3">
+            <p className="text-sm font-sans-body text-foreground/80 italic">
+              Em poucas horas você pode entender algo que muitas mulheres levam anos para perceber.
+            </p>
+            <p className="text-sm font-sans-body text-foreground/80 italic">
+              Que produtividade feminina não funciona no mesmo ritmo todos os dias.
+            </p>
+            <p className="text-sm font-sans-body text-foreground/80 italic">
+              E que, quando você respeita seu ciclo, sua rotina começa a fazer muito mais sentido.
+            </p>
+          </div>
+
           <div className="mb-2">
             <span className="text-sm text-muted-foreground line-through font-sans-body">De R$47,00</span>
           </div>
@@ -35,8 +71,23 @@ const OfferSection = () => {
             </a>
           </Button>
 
-          <p className="text-xs text-muted-foreground mt-4 font-sans-body">
-            Pagamento seguro · Acesso imediato após a confirmação
+          {/* Micro-elemento de decisão fácil */}
+          <div className="mt-5 space-y-1.5 text-center">
+            {[
+              "Acesso imediato após a inscrição",
+              "Conteúdo simples e direto ao ponto",
+              "Ideal para quem nunca estudou ciclo feminino",
+            ].map((item) => (
+              <p key={item} className="text-xs text-muted-foreground font-sans-body flex items-center justify-center gap-1.5">
+                <span className="text-accent">✔</span>
+                <span>{item}</span>
+              </p>
+            ))}
+          </div>
+
+          {/* Micro-elemento de escassez */}
+          <p className="text-xs font-sans-body text-destructive mt-4 font-medium">
+            Primeiro lote já começou a preencher
           </p>
         </div>
       </div>
