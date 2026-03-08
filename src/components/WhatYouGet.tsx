@@ -6,8 +6,6 @@ const items = [
   "Material de apoio em PDF",
   "Guia prático dos ciclos femininos",
   "Protocolo de óleos essenciais por fase",
-  "Acesso à gravação por 7 dias",
-  "Certificado de participação",
 ];
 
 const WhatYouGet = () => {
