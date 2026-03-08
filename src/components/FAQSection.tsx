@@ -9,7 +9,7 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 const faqs = [
   { q: "Preciso ter conhecimento sobre ciclo feminino?", a: "Não! A imersão é tanto para iniciantes quanto para quem já estuda sobre o tema. Vamos explicar tudo do zero, de forma simples até a prática para cada fase do ciclo." },
   { q: "Preciso usar óleos essenciais para participar?", a: "Não é obrigatório. Vamos ensinar sobre óleos, mas você pode aplicar as estratégias de produtividade mesmo sem eles." },
-  { q: "A imersão é ao vivo ou gravada?", a: "A imersão será ao vivo, mas você terá acesso à gravação por 7 dias após o evento." },
+  { q: "A imersão é ao vivo ou gravada?", a: "A imersão será ao vivo, mas você poderá adquirir a gravação e os materiais de apoio até o dia da Imersão, para ter uma experiência completa e poder assistir quantas vezes quiser." },
   { q: "Serve para quem usa anticoncepcional?", a: "Sim! Vamos abordar adaptações para diferentes contextos hormonais." },
   { q: "Quanto tempo dura a imersão?", a: "A imersão tem duração aproximada de 2 horas, com conteúdo direto e prático." },
   { q: "E se eu não gostar?", a: "Você tem 7 dias de garantia incondicional. Se não ficar satisfeita, devolvemos 100% do valor." },
