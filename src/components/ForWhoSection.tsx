@@ -13,7 +13,7 @@ const ForWhoSection = () => {
   const { ref, visible } = useScrollReveal();
 
   return (
-    <section ref={ref} className={`section-padding bg-secondary/50 transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+    <section ref={ref} className={`section-padding bg-muted transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
       <div className="container-narrow">
         <h2 className="text-2xl md:text-4xl font-serif text-center mb-10 text-foreground">
           Para quem é essa imersão
