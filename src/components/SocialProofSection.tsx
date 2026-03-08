@@ -8,7 +8,15 @@ import {
   type CarouselApi,
 } from "@/components/ui/carousel";
 
-const placeholders = Array.from({ length: 5 }, (_, i) => i + 1);
+import dep1 from "@/assets/depoimento-1.png";
+import dep2 from "@/assets/depoimento-2.png";
+import dep3 from "@/assets/depoimento-3.png";
+import dep4 from "@/assets/depoimento-4.png";
+import dep5 from "@/assets/depoimento-5.png";
+import dep6 from "@/assets/depoimento-6.png";
+import dep7 from "@/assets/depoimento-7.png";
+
+const images = [dep1, dep2, dep3, dep4, dep5, dep6, dep7];
 
 const SocialProofSection = () => {
   const [api, setApi] = useState<CarouselApi>();
