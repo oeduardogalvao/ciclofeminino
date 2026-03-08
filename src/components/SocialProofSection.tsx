@@ -54,19 +54,19 @@ const SocialProofSection = () => {
           O impacto do ciclo feminino na energia, foco e produtividade tem sido cada vez mais discutido em pesquisas e na mídia.
         </p>
 
-        <div className="px-8 md:px-12">
+        <div className="px-2 md:px-12">
           <Carousel setApi={setApi} opts={{ align: "start", loop: true }} className="w-full">
-            <CarouselContent>
+            <CarouselContent className="-ml-2 md:-ml-4">
               {images.map((src, i) => (
-                <CarouselItem key={i} className="basis-1/2 lg:basis-1/4">
+                <CarouselItem key={i} className="basis-1/2 lg:basis-1/4 pl-2 md:pl-4">
                   <div className="rounded-2xl bg-muted border border-border shadow-sm overflow-hidden">
                     <img src={src} alt={`Matéria ${i + 1}`} className="w-full h-auto object-cover" loading="lazy" />
                   </div>
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
+            <CarouselPrevious className="hidden md:flex" />
+            <CarouselNext className="hidden md:flex" />
           </Carousel>
 
           {/* Dots */}
