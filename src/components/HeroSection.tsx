@@ -90,7 +90,7 @@ const HeroSection = () => {
         {/* Top bar */}
         <div className="bg-brown-dark px-6 pt-5 pb-4 border-b border-white/10">
           <p className="text-xs font-sans-body tracking-wide text-white/90 font-bold">
-            ✦ Imersão Ciclos Femininos & Produtividade
+            ✦ Imersão Ciclo Feminino & Produtividade
           </p>
           <div className="flex items-center gap-1.5 text-xs text-white/60 font-sans-body mt-1">
             <Calendar className="w-3.5 h-3.5" />
