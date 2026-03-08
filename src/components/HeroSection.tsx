@@ -87,28 +87,25 @@ const HeroSection = () => {
 
       {/* ===== MOBILE: stacked layout ===== */}
       <div className="md:hidden flex flex-col">
-        {/* Text block with brown background */}
-        <div className="bg-brown-dark px-6 pt-16 pb-10 relative z-10">
-          {/* Top bar */}
-          <div className="flex flex-col gap-1 mb-8">
-            <p className="text-xs font-sans-body tracking-wide text-white/90 font-bold">
-              ✦ Imersão Ciclos Femininos & Produtividade
-            </p>
-            <div className="flex items-center gap-1.5 text-xs text-white/70 font-sans-body">
-              <Calendar className="w-3.5 h-3.5" />
-              <span>23 de Março · 19h às 23h</span>
-            </div>
+        {/* Top bar */}
+        <div className="bg-brown-dark px-6 pt-5 pb-4 border-b border-white/10">
+          <p className="text-xs font-sans-body tracking-wide text-white/90 font-bold">
+            ✦ Imersão Ciclos Femininos & Produtividade
+          </p>
+          <div className="flex items-center gap-1.5 text-xs text-white/60 font-sans-body mt-1">
+            <Calendar className="w-3.5 h-3.5" />
+            <span>23 de Março · 19h às 23h</span>
           </div>
+        </div>
 
-          <h1 className="text-2xl font-serif leading-tight mb-4 text-white">
-            Acabe com a culpa<br />
-            e a exaustão de não<br />
-            conseguir manter o mesmo<br />
-            ritmo todos os dias.
+        {/* Text block with brown background */}
+        <div className="bg-brown-dark px-6 pt-8 pb-8 relative z-10">
+          <h1 className="text-[1.6rem] font-serif leading-snug mb-4 text-white">
+            Acabe com a culpa e a exaustão de não conseguir manter o mesmo ritmo todos os dias.
           </h1>
 
           <p className="text-sm text-white/70 mb-5 font-sans-body leading-relaxed">
-            Descubra como cada fase do ciclo feminino afeta sua produtividade — e como usar óleos essenciais como ferramenta prática para cada momento do mês.
+            Descubra como cada fase do ciclo feminino afeta sua produtividade — e como usar óleos essenciais para cada momento do mês.
           </p>
 
           <ul className="space-y-2 mb-6">
@@ -120,7 +117,7 @@ const HeroSection = () => {
             ))}
           </ul>
 
-          <div className="flex flex-col items-start gap-3 mb-5">
+          <div className="flex items-center gap-4 mb-5">
             <Button size="lg" className="px-8 py-5 text-sm bg-accent text-accent-foreground hover:bg-accent/85 shadow-lg font-bold tracking-wide rounded-full" asChild>
               <a href="#oferta">Garantir minha vaga</a>
             </Button>
@@ -140,14 +137,8 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* Photo with gradient reveal */}
-        <div className="relative -mt-4">
-          <div
-            className="absolute top-0 left-0 right-0 h-16 z-10"
-            style={{
-              background: "linear-gradient(to bottom, hsl(15 40% 18%) 0%, transparent 100%)",
-            }}
-          />
+        {/* Photo */}
+        <div>
           <img
             src={daiHero}
             alt="Daiane Alaniz"
