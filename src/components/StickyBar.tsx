@@ -20,7 +20,7 @@ const StickyBar = () => {
         <p className="hidden sm:block text-sm font-sans-body text-foreground">
           Garanta sua vaga no <strong className="font-serif">Lote 1</strong>
         </p>
-        <Button variant="cta" className="px-6 py-5 shrink-0 text-sm bg-accent text-accent-foreground hover:bg-accent/85 animate-pulse-subtle" asChild>
+        <Button variant="cta" className="px-6 py-5 shrink-0 text-sm bg-accent text-accent-foreground hover:bg-accent/85" asChild>
           <a href="#oferta">Entrar na imersão — R$19,90</a>
         </Button>
       </div>
