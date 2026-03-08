@@ -16,7 +16,7 @@ const StickyBar = () => {
 
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-md border-t border-border shadow-[0_-4px_20px_rgba(0,0,0,0.08)] py-3 px-5 rounded-t-xl animate-fade-in">
-      <div className="container-wide flex items-center justify-between gap-4">
+      <div className="container-wide flex items-center justify-center sm:justify-between gap-4">
         <p className="hidden sm:block text-sm font-sans-body text-foreground">
           Garanta sua vaga no <strong className="font-serif">Lote 1</strong>
         </p>
