@@ -50,12 +50,6 @@ const OfferSection = () => {
             <p className="text-sm font-sans-body text-foreground/80 italic">
               Em poucas horas você pode entender algo que muitas mulheres levam anos para perceber.
             </p>
-            <p className="text-sm font-sans-body text-foreground/80 italic">
-              Que produtividade feminina não funciona no mesmo ritmo todos os dias.
-            </p>
-            <p className="text-sm font-sans-body text-foreground/80 italic">
-              E que, quando você respeita seu ciclo, sua rotina começa a fazer muito mais sentido.
-            </p>
           </div>
 
           <div className="mb-2">
@@ -74,7 +68,6 @@ const OfferSection = () => {
           {/* Micro-elemento de decisão fácil */}
           <div className="mt-5 space-y-1.5 text-center">
             {[
-              "Acesso imediato após a inscrição",
               "Conteúdo simples e direto ao ponto",
               "Ideal para quem nunca estudou ciclo feminino",
             ].map((item) => (
