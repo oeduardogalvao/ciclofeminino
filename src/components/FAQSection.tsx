@@ -7,7 +7,7 @@ import {
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const faqs = [
-  { q: "Preciso ter conhecimento sobre ciclos femininos?", a: "Não! A imersão é para iniciantes. Vamos explicar tudo do zero, de forma simples e prática." },
+  { q: "Preciso ter conhecimento sobre ciclo feminino?", a: "Não! A imersão é para iniciantes. Vamos explicar tudo do zero, de forma simples e prática." },
   { q: "Preciso usar óleos essenciais para participar?", a: "Não é obrigatório. Vamos ensinar sobre óleos, mas você pode aplicar as estratégias de produtividade mesmo sem eles." },
   { q: "A imersão é ao vivo ou gravada?", a: "A imersão será ao vivo, mas você terá acesso à gravação por 7 dias após o evento." },
   { q: "Serve para quem usa anticoncepcional?", a: "Sim! Vamos abordar adaptações para diferentes contextos hormonais." },

@@ -19,7 +19,7 @@ const OfferSection = () => {
             Investimento especial — Lote 1
           </p>
           <h2 className="text-2xl md:text-3xl font-serif mb-6 text-foreground">
-            Imersão Ciclos Femininos & Produtividade
+            Imersão Ciclo Feminino & Produtividade
           </h2>
 
           {/* Bloco de transformação */}
