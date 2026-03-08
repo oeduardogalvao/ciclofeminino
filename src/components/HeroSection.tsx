@@ -35,7 +35,7 @@ const HeroSection = () => {
         {/* Top bar */}
         <div className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-12 py-6">
           <p className="text-base font-sans-body tracking-wide text-white/90 font-bold">
-            ✦ Imersão Ciclos Femininos & Produtividade
+            ✦ Imersão Ciclo Feminino & Produtividade
           </p>
           <div className="flex items-center gap-2 text-base text-white/80 font-sans-body">
             <Calendar className="w-4 h-4" />
