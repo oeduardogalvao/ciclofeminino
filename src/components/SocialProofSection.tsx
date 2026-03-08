@@ -51,14 +51,14 @@ const SocialProofSection = () => {
           O que outras mulheres estão percebendo
         </h2>
         <p className="text-sm text-muted-foreground font-sans-body text-center mb-10 max-w-xl mx-auto">
-          Depoimentos reais de mulheres que começaram a observar seu ciclo e sua energia ao longo do mês.
+          O impacto do ciclo feminino na energia, foco e produtividade tem sido cada vez mais discutido em pesquisas e na mídia.
         </p>
 
         <div className="px-8 md:px-12">
           <Carousel setApi={setApi} opts={{ align: "start", loop: true }} className="w-full">
             <CarouselContent>
               {images.map((src, i) => (
-                <CarouselItem key={i} className="basis-full sm:basis-1/2 lg:basis-1/3">
+                <CarouselItem key={i} className="basis-1/2 lg:basis-1/4">
                   <div className="rounded-2xl bg-muted border border-border shadow-sm overflow-hidden">
                     <img src={src} alt={`Matéria ${i + 1}`} className="w-full h-auto object-cover" loading="lazy" />
                   </div>
