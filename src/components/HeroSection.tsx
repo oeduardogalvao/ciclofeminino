@@ -3,11 +3,11 @@ import { Check, Calendar } from "lucide-react";
 import daiHero from "@/assets/dai-hero.png";
 
 const bullets = [
-  "Como cada fase do ciclo influencia energia e foco",
-  "Como organizar tarefas conforme seu ritmo hormonal",
-  "Como reduzir exaustão e autocobrança",
-  "Como usar óleos essenciais para equilíbrio emocional",
-];
+"Como cada fase do ciclo influencia energia e foco",
+"Como organizar tarefas conforme seu ritmo hormonal",
+"Como reduzir exaustão e autocobrança",
+"Como usar óleos essenciais para equilíbrio emocional"];
+
 
 const HeroSection = () => {
   return (
@@ -16,21 +16,21 @@ const HeroSection = () => {
       <div className="hidden md:flex relative h-screen items-center">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${daiHero})` }}
-        />
+          style={{ backgroundImage: `url(${daiHero})` }} />
+        
         <div
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(to right, hsl(300 40% 10% / 0.95) 0%, hsl(300 35% 14% / 0.88) 25%, hsl(300 30% 18% / 0.55) 45%, transparent 66%)",
-          }}
-        />
+            "linear-gradient(to right, hsl(300 40% 10% / 0.95) 0%, hsl(300 35% 14% / 0.88) 25%, hsl(300 30% 18% / 0.55) 45%, transparent 66%)"
+          }} />
+        
         <div
           className="absolute inset-0"
           style={{
-            background: "linear-gradient(to top, hsl(300 40% 10% / 0.5) 0%, transparent 20%)",
-          }}
-        />
+            background: "linear-gradient(to top, hsl(300 40% 10% / 0.5) 0%, transparent 20%)"
+          }} />
+        
 
         {/* Top bar */}
         <div className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-12 py-6">
@@ -39,7 +39,7 @@ const HeroSection = () => {
           </p>
           <div className="flex items-center gap-2 text-base text-white/80 font-sans-body">
             <Calendar className="w-4 h-4" />
-            <span>23 de Março · 19h às 23h</span>
+            <span>23 de Março · 20h às 23h</span>
           </div>
         </div>
 
@@ -57,12 +57,12 @@ const HeroSection = () => {
               Descubra como cada fase do ciclo feminino afeta sua produtividade — e como usar óleos essenciais como ferramenta prática para cada momento do mês.
             </p>
             <ul className="space-y-2 mb-6 text-left">
-              {bullets.map((b) => (
-                <li key={b} className="flex items-start gap-2.5 text-white/85 font-sans-body text-sm">
+              {bullets.map((b) =>
+              <li key={b} className="flex items-start gap-2.5 text-white/85 font-sans-body text-sm">
                   <Check className="w-4 h-4 text-coral mt-0.5 shrink-0" />
                   <span>{b}</span>
                 </li>
-              ))}
+              )}
             </ul>
             <div className="flex items-center gap-4 mb-5">
               <Button size="lg" className="px-8 py-5 text-base bg-accent text-accent-foreground hover:bg-accent/85 shadow-lg hover:shadow-xl transition-all duration-300 font-bold tracking-wide rounded-full" asChild>
@@ -109,12 +109,12 @@ const HeroSection = () => {
           </p>
 
           <ul className="space-y-2 mb-6">
-            {bullets.map((b) => (
-              <li key={b} className="flex items-start gap-2 text-white/85 font-sans-body text-xs">
+            {bullets.map((b) =>
+            <li key={b} className="flex items-start gap-2 text-white/85 font-sans-body text-xs">
                 <Check className="w-3.5 h-3.5 text-coral mt-0.5 shrink-0" />
                 <span>{b}</span>
               </li>
-            ))}
+            )}
           </ul>
 
           <div className="flex items-center gap-4 mb-5">
@@ -142,12 +142,12 @@ const HeroSection = () => {
           <img
             src={daiHero}
             alt="Daiane Alaniz"
-            className="w-full h-auto object-cover"
-          />
+            className="w-full h-auto object-cover" />
+          
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
