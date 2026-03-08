@@ -57,11 +57,10 @@ const SocialProofSection = () => {
         <div className="px-8 md:px-12">
           <Carousel setApi={setApi} opts={{ align: "start", loop: true }} className="w-full">
             <CarouselContent>
-              {placeholders.map((n) => (
-                <CarouselItem key={n} className="basis-full sm:basis-1/2 lg:basis-1/3">
-                  <div className="aspect-square rounded-2xl bg-muted border border-border shadow-sm flex flex-col items-center justify-center gap-3 p-6">
-                    <p className="text-sm font-bold text-muted-foreground tracking-widest uppercase">Depoimento</p>
-                    <p className="text-xs text-muted-foreground font-sans-body">(Imagem será adicionada)</p>
+              {images.map((src, i) => (
+                <CarouselItem key={i} className="basis-full sm:basis-1/2 lg:basis-1/3">
+                  <div className="rounded-2xl bg-muted border border-border shadow-sm overflow-hidden">
+                    <img src={src} alt={`Matéria ${i + 1}`} className="w-full h-auto object-cover" loading="lazy" />
                   </div>
                 </CarouselItem>
               ))}
