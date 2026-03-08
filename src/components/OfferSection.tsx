@@ -1,11 +1,16 @@
 import { Button } from "@/components/ui/button";
+import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const OfferSection = () => {
+  const { ref, visible } = useScrollReveal();
+
   return (
-    <section id="oferta" className="section-padding bg-brown-dark">
+    <section id="oferta" ref={ref} className={`section-padding bg-brown-dark transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
       <div className="container-narrow">
-        <div className="bg-card border border-border rounded-3xl p-8 md:p-12 text-center shadow-xl max-w-xl mx-auto relative overflow-hidden">
-          {/* Badge de urgência */}
+        <div
+          className="bg-card border border-border rounded-3xl p-8 md:p-12 text-center shadow-xl max-w-xl mx-auto relative overflow-hidden transition-all duration-700 delay-200"
+          style={{ opacity: visible ? 1 : 0, transform: visible ? "scale(1)" : "scale(0.95)" }}
+        >
           <div className="inline-block bg-primary text-primary-foreground text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-4 font-sans-body">
             Valor especial de primeiro lote
           </div>

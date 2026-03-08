@@ -71,8 +71,8 @@ export default {
         },
       },
       fontFamily: {
-        serif: ['"Playfair Display"', 'serif'],
-        sans: ['Lato', 'sans-serif'],
+        serif: ['"IvyPresto Display"', '"Playfair Display"', 'serif'],
+        sans: ['Inter', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",

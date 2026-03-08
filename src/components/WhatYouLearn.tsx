@@ -1,4 +1,5 @@
 import { Moon, Sun, Flower2, Snowflake } from "lucide-react";
+import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const items = [
   { icon: Flower2, title: "Fase Folicular", desc: "Energia crescente — ideal para planejar, começar projetos e criar." },
@@ -8,17 +9,20 @@ const items = [
 ];
 
 const WhatYouLearn = () => {
+  const { ref, visible } = useScrollReveal();
+
   return (
-    <section className="section-padding bg-brown-dark">
+    <section ref={ref} className={`section-padding bg-brown-dark transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
       <div className="container-wide">
         <h2 className="text-2xl md:text-4xl font-serif text-center mb-12 text-primary-foreground">
           O que você vai aprender
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {items.map((item) => (
+          {items.map((item, i) => (
             <div
               key={item.title}
-              className="border border-white/10 rounded-2xl p-6 hover:border-terracotta/40 transition-colors duration-300 bg-white/5"
+              className="border border-white/10 rounded-2xl p-6 hover:border-terracotta/40 transition-all duration-500 bg-white/5"
+              style={{ transitionDelay: visible ? `${i * 120}ms` : "0ms", opacity: visible ? 1 : 0, transform: visible ? "translateY(0) scale(1)" : "translateY(20px) scale(0.95)" }}
             >
               <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center mb-4">
                 <item.icon className="w-5 h-5 text-coral" />

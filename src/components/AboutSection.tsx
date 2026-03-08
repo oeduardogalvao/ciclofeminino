@@ -1,12 +1,18 @@
 import daianeImg from "@/assets/daiane-about.jpg";
+import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const AboutSection = () => {
+  const { ref, visible } = useScrollReveal();
+
   return (
-    <section className="section-padding">
+    <section ref={ref} className={`section-padding transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
       <div className="container-wide">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center">
-            <div className="w-64 h-80 md:w-72 md:h-96 rounded-2xl overflow-hidden shadow-xl">
+            <div
+              className="w-64 h-80 md:w-72 md:h-96 rounded-2xl overflow-hidden shadow-xl transition-all duration-700"
+              style={{ opacity: visible ? 1 : 0, transform: visible ? "scale(1)" : "scale(0.9)" }}
+            >
               <img
                 src={daianeImg}
                 alt="Daiane Alaniz — Especialista em ciclos femininos e óleos essenciais"
@@ -14,7 +20,10 @@ const AboutSection = () => {
               />
             </div>
           </div>
-          <div>
+          <div
+            className="transition-all duration-700 delay-200"
+            style={{ opacity: visible ? 1 : 0, transform: visible ? "translateX(0)" : "translateX(24px)" }}
+          >
             <h2 className="text-2xl md:text-4xl font-serif mb-6 text-foreground">
               Sobre Daiane Alaniz
             </h2>
