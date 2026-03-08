@@ -56,6 +56,9 @@ export default {
         olive: "hsl(var(--olive))",
         nude: "hsl(var(--nude))",
         beige: "hsl(var(--beige))",
+        "brown-dark": "hsl(var(--brown-dark))",
+        "brown-medium": "hsl(var(--brown-medium))",
+        "brown-light": "hsl(var(--brown-light))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
