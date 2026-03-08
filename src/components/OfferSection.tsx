@@ -4,7 +4,12 @@ const OfferSection = () => {
   return (
     <section id="oferta" className="section-padding">
       <div className="container-narrow">
-        <div className="bg-card border border-border rounded-3xl p-8 md:p-12 text-center shadow-xl max-w-xl mx-auto">
+        <div className="bg-card border border-border rounded-3xl p-8 md:p-12 text-center shadow-xl max-w-xl mx-auto relative overflow-hidden">
+          {/* Badge de urgência */}
+          <div className="inline-block bg-primary text-primary-foreground text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-4 font-sans-body">
+            Valor especial de primeiro lote
+          </div>
+
           <p className="text-sm uppercase tracking-[0.2em] text-muted-foreground font-sans-body mb-2">
             Investimento especial — Lote 1
           </p>
@@ -19,7 +24,7 @@ const OfferSection = () => {
             <span className="text-5xl md:text-6xl font-serif font-bold text-primary">R$19,90</span>
           </div>
 
-          <Button variant="cta" size="lg" className="px-12 py-6 text-lg w-full sm:w-auto" asChild>
+          <Button variant="cta" size="lg" className="px-12 py-6 text-lg w-full sm:w-auto bg-accent text-accent-foreground hover:bg-accent/85" asChild>
             <a href="#" target="_blank" rel="noopener noreferrer">
               Garantir minha vaga
             </a>

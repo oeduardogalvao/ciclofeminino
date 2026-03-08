@@ -1,8 +1,10 @@
 import HeroSection from "@/components/HeroSection";
+import IdentificationSection from "@/components/IdentificationSection";
 import WhyItWorks from "@/components/WhyItWorks";
 import ProblemSection from "@/components/ProblemSection";
 import WhatYouLearn from "@/components/WhatYouLearn";
 import ForWhoSection from "@/components/ForWhoSection";
+import SocialProofSection from "@/components/SocialProofSection";
 import AboutSection from "@/components/AboutSection";
 import WhatYouGet from "@/components/WhatYouGet";
 import OfferSection from "@/components/OfferSection";
@@ -13,10 +15,12 @@ const Index = () => {
   return (
     <main className="min-h-screen bg-background">
       <HeroSection />
+      <IdentificationSection />
       <WhyItWorks />
       <ProblemSection />
       <WhatYouLearn />
       <ForWhoSection />
+      <SocialProofSection />
       <AboutSection />
       <WhatYouGet />
       <OfferSection />
