@@ -28,16 +28,6 @@ const ThankYou = () => {
       {/* Google Forms Survey */}
       <section className="section-padding pt-0">
         <div className="container-narrow">
-          <div className="text-center mb-10">
-            <h2 className="font-serif-display text-2xl md:text-3xl text-foreground mb-2">
-              Queremos te conhecer melhor
-            </h2>
-            <p className="text-muted-foreground font-sans-body text-sm md:text-base">
-              Responda rapidamente para que possamos tornar essa imersão ainda
-              mais útil para você.
-            </p>
-          </div>
-
           <div className="flex justify-center">
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSfW2ctzctppWXGjA5oB7IoIDTyL62-F2l5Pc3e_TeXSdApZsA/viewform?embedded=true"
