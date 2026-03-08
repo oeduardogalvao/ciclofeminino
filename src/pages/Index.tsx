@@ -1,13 +1,34 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/HeroSection";
+import LotBar from "@/components/LotBar";
+import WhyItWorks from "@/components/WhyItWorks";
+import ProblemSection from "@/components/ProblemSection";
+import WhatYouLearn from "@/components/WhatYouLearn";
+import ForWhoSection from "@/components/ForWhoSection";
+import AboutSection from "@/components/AboutSection";
+import WhatYouGet from "@/components/WhatYouGet";
+import OfferSection from "@/components/OfferSection";
+import FAQSection from "@/components/FAQSection";
+import StickyBar from "@/components/StickyBar";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="min-h-screen bg-background">
+      <HeroSection />
+      <LotBar />
+      <WhyItWorks />
+      <ProblemSection />
+      <WhatYouLearn />
+      <ForWhoSection />
+      <AboutSection />
+      <WhatYouGet />
+      <OfferSection />
+      <FAQSection />
+      <StickyBar />
+
+      <footer className="py-8 text-center text-xs text-muted-foreground font-sans-body border-t border-border">
+        © 2026 Mente, Corpo e Emoções · Todos os direitos reservados
+      </footer>
+    </main>
   );
 };
 
