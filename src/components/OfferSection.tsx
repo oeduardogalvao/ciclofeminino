@@ -29,13 +29,13 @@ const OfferSection = () => {
             </h3>
             <ul className="space-y-2.5 max-w-md mx-auto">
               {[
-                "Entenda por que sua energia muda ao longo do mês",
-                "Pare de se culpar por não conseguir manter o mesmo ritmo todos os dias",
-                "Identifique em qual fase do seu ciclo você está",
-                "Adapte sua rotina ao momento do seu corpo",
-                "Aproveite seus períodos de maior foco e criatividade",
-                "Reduza a exaustão ao respeitar seu próprio ritmo",
-                "Use óleos essenciais como suporte para foco, energia e equilíbrio emocional",
+                "Entender por que sua energia muda ao longo do mês",
+                "Parar de se culpar por não conseguir manter o mesmo ritmo todos os dias",
+                "Identificar em qual fase do seu ciclo você está",
+                "Adaptar sua rotina ao momento do seu corpo",
+                "Aproveitar seus períodos de maior foco e criatividade",
+                "Reduzir a exaustão ao respeitar seu próprio ritmo",
+                "Usar óleos essenciais como suporte para foco, energia e equilíbrio emocional",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-2.5 font-sans-body text-sm text-foreground/85">
                   <span className="text-primary mt-0.5">•</span>
