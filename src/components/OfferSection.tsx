@@ -53,7 +53,7 @@ const OfferSection = () => {
           </div>
 
           <div className="mb-2">
-            <span className="text-sm text-muted-foreground line-through font-sans-body">De R$47,00</span>
+            <span className="text-sm text-muted-foreground line-through font-sans-body">De R$97,00</span>
           </div>
           <div className="mb-8">
             <span className="text-5xl md:text-6xl font-serif font-bold text-primary">R$19,90</span>
