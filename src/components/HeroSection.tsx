@@ -39,7 +39,7 @@ const HeroSection = () => {
           </p>
           <div className="flex items-center gap-2 text-base text-white/80 font-sans-body">
             <Calendar className="w-4 h-4" />
-            <span>23 de Março · 20h às 23h</span>
+            <span>23 de Março · 19h30 às 23h</span>
           </div>
         </div>
 
