@@ -22,13 +22,13 @@ const HeroSection = () => {
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(to right, hsl(15 40% 10% / 0.95) 0%, hsl(15 40% 12% / 0.88) 25%, hsl(15 40% 14% / 0.55) 45%, transparent 66%)",
+              "linear-gradient(to right, hsl(300 40% 10% / 0.95) 0%, hsl(300 35% 14% / 0.88) 25%, hsl(300 30% 18% / 0.55) 45%, transparent 66%)",
           }}
         />
         <div
           className="absolute inset-0"
           style={{
-            background: "linear-gradient(to top, hsl(15 40% 10% / 0.5) 0%, transparent 20%)",
+            background: "linear-gradient(to top, hsl(300 40% 10% / 0.5) 0%, transparent 20%)",
           }}
         />
 
