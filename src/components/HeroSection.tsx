@@ -122,7 +122,7 @@ const HeroSection = () => {
               <a href="#oferta">Garantir minha vaga</a>
             </Button>
             <div className="text-white/60 font-sans-body text-sm">
-              <span className="line-through mr-2">R$49,90</span>
+              <span className="line-through mr-2">R$97,00</span>
               <span className="text-white font-bold text-lg">R$19,90</span>
             </div>
           </div>
