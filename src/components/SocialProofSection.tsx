@@ -51,7 +51,7 @@ const SocialProofSection = () => {
           O que outras mulheres estão percebendo
         </h2>
         <p className="text-sm text-muted-foreground font-sans-body text-center mb-10 max-w-xl mx-auto">
-          Depoimentos reais de mulheres que começaram a observar seu ciclo e sua energia ao longo do mês.
+          O impacto do ciclo feminino na energia, foco e produtividade tem sido cada vez mais discutido em pesquisas e na mídia.
         </p>
 
         <div className="px-8 md:px-12">
