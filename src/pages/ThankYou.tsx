@@ -192,7 +192,7 @@ const ThankYou = () => {
               </Button>
               {!allAnswered && (
                 <p className="text-xs text-muted-foreground mt-3 font-sans-body">
-                  Responda as 4 perguntas acima para continuar
+                  Responda as 5 perguntas acima para continuar
                 </p>
               )}
             </div>
