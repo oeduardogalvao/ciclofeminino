@@ -47,6 +47,15 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        terracotta: {
+          DEFAULT: "hsl(var(--terracotta))",
+          foreground: "hsl(var(--terracotta-foreground))",
+        },
+        coral: "hsl(var(--coral))",
+        gold: "hsl(var(--gold))",
+        olive: "hsl(var(--olive))",
+        nude: "hsl(var(--nude))",
+        beige: "hsl(var(--beige))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +66,10 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      fontFamily: {
+        serif: ['"Playfair Display"', 'serif'],
+        sans: ['Lato', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
