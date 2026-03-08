@@ -22,13 +22,13 @@ const HeroSection = () => {
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(to right, hsl(15 40% 10% / 0.95) 0%, hsl(15 40% 12% / 0.88) 25%, hsl(15 40% 14% / 0.55) 45%, transparent 66%)",
+              "linear-gradient(to right, hsl(300 40% 10% / 0.95) 0%, hsl(300 35% 14% / 0.88) 25%, hsl(300 30% 18% / 0.55) 45%, transparent 66%)",
           }}
         />
         <div
           className="absolute inset-0"
           style={{
-            background: "linear-gradient(to top, hsl(15 40% 10% / 0.5) 0%, transparent 20%)",
+            background: "linear-gradient(to top, hsl(300 40% 10% / 0.5) 0%, transparent 20%)",
           }}
         />
 
@@ -75,7 +75,7 @@ const HeroSection = () => {
             </div>
             <div className="max-w-sm">
               <div className="w-full h-2 bg-white/10 rounded-full overflow-hidden">
-                <div className="h-full bg-gradient-to-r from-coral to-gold rounded-full transition-all duration-1000" style={{ width: "23%" }} />
+                <div className="h-full bg-gradient-to-r from-coral to-secondary rounded-full transition-all duration-1000" style={{ width: "23%" }} />
               </div>
               <p className="text-xs text-white/50 mt-1.5 font-sans-body">
                 🔥 Lote 1 — 23% das vagas já preenchidas
@@ -129,7 +129,7 @@ const HeroSection = () => {
 
           <div className="max-w-xs">
             <div className="w-full h-2 bg-white/10 rounded-full overflow-hidden">
-              <div className="h-full bg-gradient-to-r from-coral to-gold rounded-full" style={{ width: "23%" }} />
+              <div className="h-full bg-gradient-to-r from-coral to-secondary rounded-full" style={{ width: "23%" }} />
             </div>
             <p className="text-xs text-white/50 mt-1.5 font-sans-body">
               🔥 Lote 1 — 23% das vagas já preenchidas
