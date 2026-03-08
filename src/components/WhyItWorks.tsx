@@ -23,8 +23,8 @@ const WhyItWorks = () => {
               className="bg-card rounded-2xl p-8 text-center hover:shadow-lg transition-all duration-500"
               style={{ transitionDelay: visible ? `${i * 150}ms` : "0ms", opacity: visible ? 1 : 0, transform: visible ? "translateY(0)" : "translateY(20px)" }}
             >
-              <div className="w-14 h-14 rounded-full bg-secondary flex items-center justify-center mx-auto mb-5">
-                <c.icon className="w-6 h-6 text-olive" />
+              <div className="w-14 h-14 rounded-full bg-coral/20 flex items-center justify-center mx-auto mb-5">
+                <c.icon className="w-6 h-6 text-primary" />
               </div>
               <h3 className="font-serif text-lg mb-3 text-foreground">{c.title}</h3>
               <p className="text-sm text-muted-foreground font-sans-body leading-relaxed">{c.desc}</p>

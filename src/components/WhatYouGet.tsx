@@ -24,8 +24,8 @@ const WhatYouGet = () => {
               className="flex items-start gap-3 font-sans-body text-foreground/90 transition-all duration-500"
               style={{ transitionDelay: visible ? `${i * 100}ms` : "0ms", opacity: visible ? 1 : 0, transform: visible ? "translateX(0)" : "translateX(-16px)" }}
             >
-              <div className="w-6 h-6 rounded-full bg-olive/20 flex items-center justify-center shrink-0 mt-0.5">
-                <Check className="w-3.5 h-3.5 text-olive" />
+              <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center shrink-0 mt-0.5">
+                <Check className="w-3.5 h-3.5 text-accent" />
               </div>
               <span>{item}</span>
             </li>
