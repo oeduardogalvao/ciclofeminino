@@ -1,4 +1,4 @@
-import daianeImg from "@/assets/daiane-alaniz.jpg";
+import daianeImg from "@/assets/daiane-about.jpg";
 
 const AboutSection = () => {
   return (
