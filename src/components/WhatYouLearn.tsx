@@ -1,4 +1,5 @@
 import { Moon, Sun, Flower2, Snowflake } from "lucide-react";
+import SectionCTA from "@/components/SectionCTA";
 
 const items = [
   { icon: Flower2, title: "Fase Folicular", desc: "Energia crescente — ideal para planejar, começar projetos e criar." },
@@ -28,6 +29,7 @@ const WhatYouLearn = () => {
             </div>
           ))}
         </div>
+        <SectionCTA text="Quero garantir minha vaga" />
       </div>
     </section>
   );
