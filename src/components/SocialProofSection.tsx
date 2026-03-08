@@ -8,7 +8,15 @@ import {
   type CarouselApi,
 } from "@/components/ui/carousel";
 
-const placeholders = Array.from({ length: 5 }, (_, i) => i + 1);
+import dep1 from "@/assets/depoimento-1.png";
+import dep2 from "@/assets/depoimento-2.png";
+import dep3 from "@/assets/depoimento-3.png";
+import dep4 from "@/assets/depoimento-4.png";
+import dep5 from "@/assets/depoimento-5.png";
+import dep6 from "@/assets/depoimento-6.png";
+import dep7 from "@/assets/depoimento-7.png";
+
+const images = [dep1, dep2, dep3, dep4, dep5, dep6, dep7];
 
 const SocialProofSection = () => {
   const [api, setApi] = useState<CarouselApi>();
@@ -49,11 +57,10 @@ const SocialProofSection = () => {
         <div className="px-8 md:px-12">
           <Carousel setApi={setApi} opts={{ align: "start", loop: true }} className="w-full">
             <CarouselContent>
-              {placeholders.map((n) => (
-                <CarouselItem key={n} className="basis-full sm:basis-1/2 lg:basis-1/3">
-                  <div className="aspect-square rounded-2xl bg-muted border border-border shadow-sm flex flex-col items-center justify-center gap-3 p-6">
-                    <p className="text-sm font-bold text-muted-foreground tracking-widest uppercase">Depoimento</p>
-                    <p className="text-xs text-muted-foreground font-sans-body">(Imagem será adicionada)</p>
+              {images.map((src, i) => (
+                <CarouselItem key={i} className="basis-full sm:basis-1/2 lg:basis-1/3">
+                  <div className="rounded-2xl bg-muted border border-border shadow-sm overflow-hidden">
+                    <img src={src} alt={`Matéria ${i + 1}`} className="w-full h-auto object-cover" loading="lazy" />
                   </div>
                 </CarouselItem>
               ))}
