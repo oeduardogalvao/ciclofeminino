@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const OfferSection = () => {
   return (
-    <section id="oferta" className="section-padding">
+    <section id="oferta" className="section-padding bg-brown-dark">
       <div className="container-narrow">
         <div className="bg-card border border-border rounded-3xl p-8 md:p-12 text-center shadow-xl max-w-xl mx-auto relative overflow-hidden">
           {/* Badge de urgência */}
