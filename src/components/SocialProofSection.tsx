@@ -58,7 +58,7 @@ const SocialProofSection = () => {
           <Carousel setApi={setApi} opts={{ align: "start", loop: true }} className="w-full">
             <CarouselContent>
               {images.map((src, i) => (
-                <CarouselItem key={i} className="basis-full sm:basis-1/2 lg:basis-1/3">
+                <CarouselItem key={i} className="basis-1/2 lg:basis-1/4">
                   <div className="rounded-2xl bg-muted border border-border shadow-sm overflow-hidden">
                     <img src={src} alt={`Matéria ${i + 1}`} className="w-full h-auto object-cover" loading="lazy" />
                   </div>
