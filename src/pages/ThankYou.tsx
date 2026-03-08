@@ -65,17 +65,6 @@ const ThankYou = () => {
             </ul>
           </div>
 
-          {/* WhatsApp CTA */}
-          <div className="mt-10 text-center">
-            <Button
-              variant="cta"
-              size="lg"
-              onClick={() => window.open(WHATSAPP_GROUP_LINK, "_blank")}
-              className="px-8 py-6 text-base md:text-lg"
-            >
-              Acessar o Grupo VIP no WhatsApp
-            </Button>
-          </div>
 
           {/* Motivational */}
           <p className="text-center mt-10 text-sm md:text-base text-secondary font-sans-body italic max-w-lg mx-auto">
