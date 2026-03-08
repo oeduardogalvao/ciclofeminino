@@ -75,7 +75,7 @@ const HeroSection = () => {
             </div>
             <div className="max-w-sm">
               <div className="w-full h-2 bg-white/10 rounded-full overflow-hidden">
-                <div className="h-full bg-gradient-to-r from-coral to-gold rounded-full transition-all duration-1000" style={{ width: "23%" }} />
+                <div className="h-full bg-gradient-to-r from-coral to-secondary rounded-full transition-all duration-1000" style={{ width: "23%" }} />
               </div>
               <p className="text-xs text-white/50 mt-1.5 font-sans-body">
                 🔥 Lote 1 — 23% das vagas já preenchidas
