@@ -68,7 +68,6 @@ const OfferSection = () => {
           {/* Micro-elemento de decisão fácil */}
           <div className="mt-5 space-y-1.5 text-center">
             {[
-              "Acesso imediato após a inscrição",
               "Conteúdo simples e direto ao ponto",
               "Ideal para quem nunca estudou ciclo feminino",
             ].map((item) => (
