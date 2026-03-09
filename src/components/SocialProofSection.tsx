@@ -44,7 +44,7 @@ const SocialProofSection = () => {
   return (
     <section
       ref={sectionRef}
-      className={`section-padding bg-card transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+      className={`section-padding bg-card overflow-hidden transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
     >
       <div className="container-wide">
         <h2 className="text-2xl md:text-4xl font-serif text-center mb-3 text-foreground">
@@ -54,7 +54,7 @@ const SocialProofSection = () => {
           O impacto do ciclo feminino na energia, foco e produtividade tem sido cada vez mais discutido em pesquisas e na mídia.
         </p>
 
-        <div className="px-2 md:px-12">
+        <div className="overflow-hidden px-0 md:px-12">
           <Carousel setApi={setApi} opts={{ align: "start", loop: true }} className="w-full">
             <CarouselContent className="-ml-2 md:-ml-4">
               {images.map((src, i) => (

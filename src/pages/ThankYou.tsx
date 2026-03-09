@@ -30,7 +30,7 @@ const ThankYou = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 min-h-screen flex flex-col justify-center px-6 py-12 md:px-16 lg:px-24 w-full max-w-[800px]">
+      <div className="relative z-10 min-h-screen flex flex-col justify-center w-[95vw] max-w-[800px] mx-auto px-0 py-12 md:w-full md:px-16 lg:px-24">
         
         {/* Progress Bar */}
         <div className="mb-10 w-full max-w-md">

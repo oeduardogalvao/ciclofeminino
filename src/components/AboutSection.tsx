@@ -21,7 +21,7 @@ const AboutSection = () => {
             </div>
           </div>
           <div
-            className="transition-all duration-700 delay-200"
+            className="transition-all duration-700 delay-200 text-center md:text-left max-w-xl mx-auto"
             style={{ opacity: visible ? 1 : 0, transform: visible ? "translateX(0)" : "translateX(24px)" }}
           >
             <h2 className="text-2xl md:text-4xl font-serif mb-6 text-foreground">
