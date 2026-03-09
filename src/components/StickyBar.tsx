@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import { useUTM } from "@/hooks/useUTM";
 
 const StickyBar = () => {
   const [visible, setVisible] = useState(false);
