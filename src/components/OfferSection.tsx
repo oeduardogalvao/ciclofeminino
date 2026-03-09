@@ -53,9 +53,6 @@ const OfferSection = () => {
             Valor especial de primeiro lote
           </div>
 
-          <p className="text-sm uppercase tracking-[0.24em] text-muted-foreground font-sans mb-3">
-            Investimento especial — Lote 1
-          </p>
           <h2 className="text-3xl md:text-4xl font-serif mb-4 text-foreground leading-tight">
             Imersão Ciclo Feminino & Produtividade
           </h2>
