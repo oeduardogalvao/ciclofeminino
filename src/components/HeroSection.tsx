@@ -66,7 +66,7 @@ const HeroSection = () => {
             </ul>
             <div className="flex items-center gap-4 mb-5">
               <Button size="lg" className="px-8 py-5 text-base bg-accent text-accent-foreground hover:bg-accent/85 shadow-lg hover:shadow-xl transition-all duration-300 font-bold tracking-wide rounded-full" asChild>
-                <a href="#oferta">Garantir minha vaga</a>
+                <a href="https://pay.hotmart.com/B104628606K?off=ajvkspu0&checkoutMode=10&utm_source=site&utm_medium=cta&utm_campaign=imersao&utm_content=hero" target="_blank" rel="noopener noreferrer">Garantir minha vaga</a>
               </Button>
               <div className="text-white/60 font-sans-body text-sm">
                 <span className="line-through mr-2">R$97,00</span>
@@ -119,7 +119,7 @@ const HeroSection = () => {
 
           <div className="flex items-center gap-4 mb-5">
             <Button size="lg" className="px-8 py-5 text-sm bg-accent text-accent-foreground hover:bg-accent/85 shadow-lg font-bold tracking-wide rounded-full" asChild>
-              <a href="#oferta">Garantir minha vaga</a>
+              <a href="https://pay.hotmart.com/B104628606K?off=ajvkspu0&checkoutMode=10&utm_source=site&utm_medium=cta&utm_campaign=imersao&utm_content=hero_mobile" target="_blank" rel="noopener noreferrer">Garantir minha vaga</a>
             </Button>
             <div className="text-white/60 font-sans-body text-sm">
               <span className="line-through mr-2">R$97,00</span>
