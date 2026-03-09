@@ -2,9 +2,21 @@ import { Eye, Lightbulb, Leaf } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const cards = [
-  { icon: Eye, title: "Clareza sobre o seu próprio corpo", desc: "Entenda seus padrões naturais de energia e disposição ao longo do mês." },
-  { icon: Lightbulb, title: "Estratégias simples de aplicar", desc: "Métodos práticos que se encaixam na sua rotina sem complicação." },
-  { icon: Leaf, title: "Ferramentas naturais de apoio", desc: "Óleos essenciais como aliados do seu bem-estar e produtividade." },
+  {
+    icon: Eye,
+    title: "Clareza sobre o seu próprio corpo",
+    desc: <>Entenda seus <strong className="font-semibold text-foreground">padrões naturais</strong> de energia e disposição ao longo do mês.</>,
+  },
+  {
+    icon: Lightbulb,
+    title: "Estratégias simples de aplicar",
+    desc: <>Métodos práticos que <strong className="font-semibold text-foreground">encaixam na sua rotina</strong> sem complicação.</>,
+  },
+  {
+    icon: Leaf,
+    title: "Ferramentas naturais de apoio",
+    desc: <>Óleos essenciais como <strong className="font-semibold text-foreground">aliados do seu bem-estar</strong> e produtividade.</>,
+  },
 ];
 
 const WhyItWorks = () => {

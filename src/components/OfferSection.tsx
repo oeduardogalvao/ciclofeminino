@@ -3,6 +3,36 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const OfferSection = () => {
   const { ref, visible } = useScrollReveal();
+  const transformationItems = [
+    {
+      id: "energia",
+      content: <>Entender <strong className="font-semibold text-foreground">por que sua energia muda</strong> ao longo do mês</>,
+    },
+    {
+      id: "culpa",
+      content: <>Parar de <strong className="font-semibold text-foreground">se culpar</strong> por não conseguir manter o mesmo ritmo todos os dias</>,
+    },
+    {
+      id: "fase",
+      content: <>Identificar em <strong className="font-semibold text-foreground">qual fase do seu ciclo</strong> você está</>,
+    },
+    {
+      id: "rotina",
+      content: <><strong className="font-semibold text-foreground">Adaptar sua rotina</strong> ao momento do seu corpo</>,
+    },
+    {
+      id: "foco",
+      content: <>Aproveitar seus <strong className="font-semibold text-foreground">períodos de maior foco</strong> e criatividade</>,
+    },
+    {
+      id: "exaustao",
+      content: <><strong className="font-semibold text-foreground">Reduzir a exaustão</strong> ao respeitar seu próprio ritmo</>,
+    },
+    {
+      id: "oleos",
+      content: <>Usar <strong className="font-semibold text-foreground">óleos essenciais</strong> como suporte para foco, energia e equilíbrio emocional</>,
+    },
+  ];
 
   return (
     <section id="oferta" ref={ref} className={`section-padding bg-brown-dark transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
@@ -28,18 +58,10 @@ const OfferSection = () => {
               Depois da imersão, você será capaz de:
             </h3>
             <ul className="space-y-2.5 max-w-md mx-auto">
-              {[
-                "Entender por que sua energia muda ao longo do mês",
-                "Parar de se culpar por não conseguir manter o mesmo ritmo todos os dias",
-                "Identificar em qual fase do seu ciclo você está",
-                "Adaptar sua rotina ao momento do seu corpo",
-                "Aproveitar seus períodos de maior foco e criatividade",
-                "Reduzir a exaustão ao respeitar seu próprio ritmo",
-                "Usar óleos essenciais como suporte para foco, energia e equilíbrio emocional",
-              ].map((item) => (
-                <li key={item} className="flex items-start gap-2.5 font-sans-body text-sm text-foreground/85">
+              {transformationItems.map((item) => (
+                <li key={item.id} className="flex items-start gap-2.5 font-sans-body text-sm text-foreground/85">
                   <span className="text-primary mt-0.5">•</span>
-                  <span>{item}</span>
+                  <span>{item.content}</span>
                 </li>
               ))}
             </ul>
@@ -48,7 +70,7 @@ const OfferSection = () => {
           {/* Bloco de valor */}
           <div className="mb-8 max-w-md mx-auto text-center space-y-3">
             <p className="text-sm font-sans-body text-foreground/80 italic">
-              Em poucas horas você pode entender algo que muitas mulheres levam anos para perceber.
+              Em poucas horas você pode entender algo que <strong className="font-semibold text-foreground">muitas mulheres levam anos</strong> para perceber.
             </p>
           </div>
 
@@ -68,7 +90,7 @@ const OfferSection = () => {
           {/* Micro-elemento de decisão fácil */}
           <div className="mt-5 space-y-1.5 text-center">
             {[
-              "Conteúdo simples e direto ao ponto",
+              "Conteúdo prático e direto ao ponto",
               "Ideal para quem nunca estudou ciclo feminino",
             ].map((item) => (
               <p key={item} className="text-xs text-muted-foreground font-sans-body flex items-center justify-center gap-1.5">

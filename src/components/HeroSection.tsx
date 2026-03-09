@@ -3,10 +3,23 @@ import { Check, Calendar } from "lucide-react";
 import daiHero from "@/assets/dai-hero.png";
 
 const bullets = [
-"Como cada fase do ciclo influencia energia e foco",
-"Como organizar tarefas conforme seu ritmo hormonal",
-"Como reduzir exaustão e autocobrança",
-"Como usar óleos essenciais para equilíbrio emocional"];
+  {
+    id: "fases",
+    content: <>Como cada fase do ciclo influencia <strong className="font-semibold text-white">energia e foco</strong></>,
+  },
+  {
+    id: "tarefas",
+    content: <>Como <strong className="font-semibold text-white">organizar tarefas</strong> conforme seu ritmo hormonal</>,
+  },
+  {
+    id: "exaustao",
+    content: <>Como reduzir <strong className="font-semibold text-white">exaustão e autocobrança</strong></>,
+  },
+  {
+    id: "oleos",
+    content: <>Como <strong className="font-semibold text-white">usar óleos essenciais</strong> para equilíbrio emocional</>,
+  },
+];
 
 
 const HeroSection = () => {
@@ -33,7 +46,7 @@ const HeroSection = () => {
         
 
         {/* Top bar */}
-        <div className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-12 py-6">
+        <div className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-20 lg:px-28 py-6">
           <p className="text-base font-sans-body tracking-wide text-white/90 font-bold">
             ✦ Imersão Ciclo Feminino & Produtividade
           </p>
@@ -44,7 +57,7 @@ const HeroSection = () => {
         </div>
 
         {/* Content */}
-        <div className="relative z-10 px-12 lg:px-16 w-full">
+        <div className="relative z-10 px-20 lg:px-28 w-full">
           <div className="max-w-xl">
             <h1 className="text-3xl lg:text-4xl font-serif leading-tight mb-4 text-white">
               Acabe com a culpa e a exaustão
@@ -54,13 +67,13 @@ const HeroSection = () => {
               o mesmo ritmo todos os dias.
             </h1>
             <p className="text-base text-white/70 max-w-md mb-6 font-sans-body leading-relaxed">
-              Descubra como cada fase do ciclo feminino afeta sua produtividade — e como usar óleos essenciais como ferramenta prática para cada momento do mês.
+              Descubra <strong className="font-semibold text-white">como cada fase do ciclo feminino afeta sua produtividade</strong> — e como usar <strong className="font-semibold text-white">óleos essenciais</strong> como ferramenta prática para cada momento do mês.
             </p>
             <ul className="space-y-2 mb-6 text-left">
-              {bullets.map((b) =>
-              <li key={b} className="flex items-start gap-2.5 text-white/85 font-sans-body text-sm">
+              {bullets.map((bullet) =>
+              <li key={bullet.id} className="flex items-start gap-2.5 text-white/85 font-sans-body text-sm">
                   <Check className="w-4 h-4 text-coral mt-0.5 shrink-0" />
-                  <span>{b}</span>
+                  <span>{bullet.content}</span>
                 </li>
               )}
             </ul>
@@ -88,7 +101,7 @@ const HeroSection = () => {
       {/* ===== MOBILE: stacked layout ===== */}
       <div className="md:hidden flex flex-col">
         {/* Top bar */}
-        <div className="bg-brown-dark px-6 pt-5 pb-4 border-b border-white/10">
+        <div className="bg-brown-dark px-10 pt-5 pb-4 border-b border-white/10">
           <p className="text-xs font-sans-body tracking-wide text-white/90 font-bold">
             ✦ Imersão Ciclo Feminino & Produtividade
           </p>
@@ -99,20 +112,20 @@ const HeroSection = () => {
         </div>
 
         {/* Text block with brown background */}
-        <div className="bg-brown-dark px-6 pt-8 pb-8 relative z-10">
+        <div className="bg-brown-dark px-10 pt-8 pb-8 relative z-10">
           <h1 className="text-[1.6rem] font-serif leading-snug mb-4 text-white">
             Acabe com a culpa e a exaustão de não conseguir manter o mesmo ritmo todos os dias.
           </h1>
 
           <p className="text-sm text-white/70 mb-5 font-sans-body leading-relaxed">
-            Descubra como cada fase do ciclo feminino afeta sua produtividade — e como usar óleos essenciais para cada momento do mês.
+            Descubra <strong className="font-semibold text-white">como cada fase do ciclo feminino afeta sua produtividade</strong> — e como usar <strong className="font-semibold text-white">óleos essenciais</strong> como ferramenta prática para cada momento do mês.
           </p>
 
           <ul className="space-y-2 mb-6">
-            {bullets.map((b) =>
-            <li key={b} className="flex items-start gap-2 text-white/85 font-sans-body text-xs">
+            {bullets.map((bullet) =>
+            <li key={bullet.id} className="flex items-start gap-2 text-white/85 font-sans-body text-xs">
                 <Check className="w-3.5 h-3.5 text-coral mt-0.5 shrink-0" />
-                <span>{b}</span>
+                <span>{bullet.content}</span>
               </li>
             )}
           </ul>

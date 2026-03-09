@@ -29,7 +29,7 @@ const AboutSection = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground font-sans-body leading-relaxed">
               <p>
-                Daiane é especialista em saúde feminina integrativa, com formação em aromaterapia clínica e anos de experiência ajudando mulheres a reconectarem com seus ciclos naturais.
+                Daiane é <strong className="font-semibold text-foreground">Engenheira de Bioprocessos e Biotecnologia, pós-graduada em Aromaterapia Clínica Integrativa e especialista em Naturopatia pela Academia Europeia de Medicinas Naturais</strong>.
               </p>
               <p>
                 Criadora do projeto <strong className="text-foreground">Mente, Corpo e Emoções</strong>, ela combina ciência e práticas naturais para ajudar mulheres a viverem com mais equilíbrio, produtividade e autocuidado.

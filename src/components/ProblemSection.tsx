@@ -1,11 +1,27 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const pains = [
-"Você se cobra por não render igual todos os dias",
-"Sente culpa quando precisa desacelerar",
-"Já tentou várias técnicas de produtividade e nenhuma funcionou de verdade",
-"Não entende por que em certas semanas tudo flui e em outras nada acontece",
-"Se sente exausta tentando acompanhar um ritmo que não é seu"];
+  {
+    id: "cobrança",
+    content: <>Você <strong className="font-semibold text-foreground">se cobra</strong> por não render igual todos os dias</>,
+  },
+  {
+    id: "culpa",
+    content: <>Sente <strong className="font-semibold text-foreground">culpa</strong> quando precisa desacelerar</>,
+  },
+  {
+    id: "tecnicas",
+    content: <>Já tentou várias técnicas de produtividade e <strong className="font-semibold text-foreground">nenhuma funcionou de verdade</strong></>,
+  },
+  {
+    id: "entende",
+    content: <>Não <strong className="font-semibold text-foreground">entende por que</strong> em certas semanas tudo flui e em outras nada acontece</>,
+  },
+  {
+    id: "ritmo",
+    content: <>Se sente exausta tentando acompanhar um ritmo que <strong className="font-semibold text-foreground">não é seu</strong></>,
+  },
+];
 
 
 const ProblemSection = () => {
@@ -18,17 +34,17 @@ const ProblemSection = () => {
           A produtividade feminina funciona diferente
         </h2>
         <p className="text-center text-muted-foreground font-sans-body mb-10 max-w-xl mx-auto">
-          Você não é improdutiva. Você só está tentando seguir um modelo que não foi feito para o seu corpo.
+          Você não é improdutiva. Você só está tentando seguir um modelo que <strong className="font-semibold text-foreground">não foi feito para o seu corpo</strong>.
         </p>
         <ul className="space-y-4 max-w-lg mx-auto">
-          {pains.map((p, i) =>
+          {pains.map((pain, i) =>
           <li
-            key={p}
+            key={pain.id}
             className="flex items-start gap-3 font-sans-body text-foreground/85 transition-all duration-500"
             style={{ transitionDelay: visible ? `${i * 100}ms` : "0ms", opacity: visible ? 1 : 0, transform: visible ? "translateX(0)" : "translateX(-16px)" }}>
             
               <span className="text-primary mt-0.5 shrink-0">✕</span>
-              <span>{p}</span>
+              <span>{pain.content}</span>
             </li>
           )}
         </ul>
