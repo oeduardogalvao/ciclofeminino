@@ -39,7 +39,7 @@ const WhyItWorks = () => {
                 <c.icon className="w-6 h-6 text-primary" />
               </div>
               <h3 className="font-serif text-lg mb-3 text-foreground">{c.title}</h3>
-              <p className="text-sm text-muted-foreground font-sans-body leading-relaxed">{c.desc}</p>
+              <p className="text-sm text-muted-foreground font-sans leading-relaxed">{c.desc}</p>
             </div>
           ))}
         </div>

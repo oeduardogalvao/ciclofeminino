@@ -50,7 +50,7 @@ const SocialProofSection = () => {
         <h2 className="text-2xl md:text-4xl font-serif text-center mb-3 text-foreground">
           O que outras mulheres estão percebendo
         </h2>
-        <p className="text-sm text-muted-foreground font-sans-body text-center mb-10 max-w-xl mx-auto">
+        <p className="text-sm text-muted-foreground font-sans text-center mb-10 max-w-xl mx-auto">
           O impacto do ciclo feminino na energia, foco e produtividade tem sido cada vez mais discutido em pesquisas e na mídia.
         </p>
 

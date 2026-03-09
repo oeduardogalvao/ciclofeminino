@@ -27,7 +27,7 @@ const AboutSection = () => {
             <h2 className="text-2xl md:text-4xl font-serif mb-6 text-foreground">
               Sobre Daiane Alaniz
             </h2>
-            <div className="space-y-4 text-muted-foreground font-sans-body leading-relaxed">
+            <div className="space-y-4 text-muted-foreground font-sans leading-relaxed">
               <p>
                 Daiane é <strong className="font-semibold text-foreground">Engenheira de Bioprocessos e Biotecnologia, pós-graduada em Aromaterapia Clínica Integrativa e especialista em Naturopatia pela Academia Europeia de Medicinas Naturais</strong>.
               </p>

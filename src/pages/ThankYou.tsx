@@ -34,7 +34,7 @@ const ThankYou = () => {
         
         {/* Progress Bar */}
         <div className="mb-10 w-full max-w-md">
-          <div className="flex items-center justify-between text-xs md:text-sm font-sans-body mb-2.5 font-bold text-white/90">
+          <div className="flex items-center justify-between text-xs md:text-sm font-sans mb-2.5 font-bold text-white/90">
             <span>Passo 2 de 2: Quase lá!</span>
             <span>80%</span>
           </div>
@@ -45,10 +45,10 @@ const ThankYou = () => {
 
         {/* Hero Text */}
         <div className="mb-8">
-          <h1 className="font-serif-display text-4xl md:text-5xl lg:text-6xl leading-[1.1] text-white mb-4">
+          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-[1.1] text-white mb-4">
             Parabéns! Sua vaga na Imersão está confirmada.
           </h1>
-          <p className="text-lg md:text-xl text-coral font-bold font-sans-body leading-relaxed">
+          <p className="text-lg md:text-xl text-coral font-bold font-sans leading-relaxed">
             Mas atenção, você AINDA NÃO terminou.
           </p>
         </div>
@@ -57,16 +57,16 @@ const ThankYou = () => {
         <div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl p-6 md:p-8 mb-8 shadow-2xl relative overflow-hidden">
           <div className="absolute top-0 left-0 w-1.5 h-full bg-coral rounded-l-2xl" />
           
-          <h2 className="font-sans-body font-bold text-white text-lg md:text-xl mb-4 flex items-center gap-2">
+          <h2 className="font-sans font-bold text-white text-lg md:text-xl mb-4 flex items-center gap-2">
             <AlertTriangle className="h-5 w-5 text-coral shrink-0" />
             Aviso Importante
           </h2>
           
-          <p className="font-sans-body text-base md:text-lg text-white/90 mb-6 leading-relaxed">
+          <p className="font-sans text-base md:text-lg text-white/90 mb-6 leading-relaxed">
             O link de acesso à transmissão, lembretes e os <strong>materiais exclusivos</strong> da imersão serão enviados <strong>APENAS no grupo VIP do WhatsApp</strong>.
           </p>
 
-          <div className="space-y-3 font-sans-body text-sm md:text-base text-white/80">
+          <div className="space-y-3 font-sans text-sm md:text-base text-white/80">
             <div className="flex items-start gap-3">
               <span className="mt-0.5 inline-flex items-center justify-center h-5 w-5 rounded-full bg-coral/20 shrink-0">
                 <Check className="h-3 w-3 text-coral" strokeWidth={3} />
@@ -106,7 +106,7 @@ const ThankYou = () => {
             Entrar no Grupo VIP
             <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
           </a>
-          <p className="text-xs text-white/50 font-sans-body mt-4 tracking-wide">
+          <p className="text-xs text-white/50 font-sans mt-4 tracking-wide">
             Entrar no grupo leva menos de 5 segundos.
           </p>
         </div>

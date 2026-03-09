@@ -47,10 +47,10 @@ const HeroSection = () => {
 
         {/* Top bar */}
         <div className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-20 lg:px-28 py-6">
-          <p className="text-base font-sans-body tracking-wide text-white/90 font-bold">
+          <p className="text-base font-sans tracking-wide text-white/90 font-bold">
             ✦ Imersão Ciclo Feminino & Produtividade
           </p>
-          <div className="flex items-center gap-2 text-base text-white/80 font-sans-body">
+          <div className="flex items-center gap-2 text-base text-white/80 font-sans">
             <Calendar className="w-4 h-4" />
             <span>23 de Março · 19h30 às 23h</span>
           </div>
@@ -66,12 +66,12 @@ const HeroSection = () => {
               <br />
               o mesmo ritmo todos os dias.
             </h1>
-            <p className="text-base text-white/70 max-w-md mb-6 font-sans-body leading-relaxed">
+            <p className="text-base text-white/70 max-w-md mb-6 font-sans leading-relaxed">
               Descubra <strong className="font-semibold text-white">como cada fase do ciclo feminino afeta sua produtividade</strong> — e como usar <strong className="font-semibold text-white">óleos essenciais</strong> como ferramenta prática para cada momento do mês.
             </p>
             <ul className="space-y-2 mb-6 text-left">
               {bullets.map((bullet) =>
-              <li key={bullet.id} className="flex items-start gap-2.5 text-white/85 font-sans-body text-sm">
+              <li key={bullet.id} className="flex items-start gap-2.5 text-white/85 font-sans text-sm">
                   <Check className="w-4 h-4 text-coral mt-0.5 shrink-0" />
                   <span>{bullet.content}</span>
                 </li>
@@ -81,7 +81,7 @@ const HeroSection = () => {
               <Button size="lg" className="px-8 py-5 text-base bg-accent text-accent-foreground hover:bg-accent/85 shadow-lg hover:shadow-xl transition-all duration-300 font-bold tracking-wide rounded-full" asChild>
                 <a href="https://pay.hotmart.com/B104628606K?off=ajvkspu0&checkoutMode=10&utm_source=site&utm_medium=cta&utm_campaign=imersao&utm_content=hero" target="_blank" rel="noopener noreferrer">Garantir minha vaga</a>
               </Button>
-              <div className="text-white/60 font-sans-body text-sm">
+              <div className="text-white/60 font-sans text-sm">
                 <span className="line-through mr-2">R$97,00</span>
                 <span className="text-white font-bold text-lg">R$19,90</span>
               </div>
@@ -90,7 +90,7 @@ const HeroSection = () => {
               <div className="w-full h-2 bg-white/10 rounded-full overflow-hidden">
                 <div className="h-full bg-gradient-to-r from-coral to-secondary rounded-full transition-all duration-1000" style={{ width: "23%" }} />
               </div>
-              <p className="text-xs text-white/50 mt-1.5 font-sans-body">
+              <p className="text-xs text-white/50 mt-1.5 font-sans">
                 🔥 Lote 1 — 23% das vagas já preenchidas
               </p>
             </div>
@@ -102,10 +102,10 @@ const HeroSection = () => {
       <div className="md:hidden flex flex-col">
         {/* Top bar */}
         <div className="bg-brown-dark px-10 pt-5 pb-4 border-b border-white/10">
-          <p className="text-xs font-sans-body tracking-wide text-white/90 font-bold">
+          <p className="text-xs font-sans tracking-wide text-white/90 font-bold">
             ✦ Imersão Ciclo Feminino & Produtividade
           </p>
-          <div className="flex items-center gap-1.5 text-xs text-white/60 font-sans-body mt-1">
+          <div className="flex items-center gap-1.5 text-xs text-white/60 font-sans mt-1">
             <Calendar className="w-3.5 h-3.5" />
             <span>23 de Março · 19h às 23h</span>
           </div>
@@ -117,13 +117,13 @@ const HeroSection = () => {
             Acabe com a culpa e a exaustão de não conseguir manter o mesmo ritmo todos os dias.
           </h1>
 
-          <p className="text-sm text-white/70 mb-5 font-sans-body leading-relaxed">
+          <p className="text-sm text-white/70 mb-5 font-sans leading-relaxed">
             Descubra <strong className="font-semibold text-white">como cada fase do ciclo feminino afeta sua produtividade</strong> — e como usar <strong className="font-semibold text-white">óleos essenciais</strong> como ferramenta prática para cada momento do mês.
           </p>
 
           <ul className="space-y-2 mb-6">
             {bullets.map((bullet) =>
-            <li key={bullet.id} className="flex items-start gap-2 text-white/85 font-sans-body text-xs">
+            <li key={bullet.id} className="flex items-start gap-2 text-white/85 font-sans text-xs">
                 <Check className="w-3.5 h-3.5 text-coral mt-0.5 shrink-0" />
                 <span>{bullet.content}</span>
               </li>
@@ -134,7 +134,7 @@ const HeroSection = () => {
             <Button size="lg" className="px-8 py-5 text-sm bg-accent text-accent-foreground hover:bg-accent/85 shadow-lg font-bold tracking-wide rounded-full" asChild>
               <a href="https://pay.hotmart.com/B104628606K?off=ajvkspu0&checkoutMode=10&utm_source=site&utm_medium=cta&utm_campaign=imersao&utm_content=hero_mobile" target="_blank" rel="noopener noreferrer">Garantir minha vaga</a>
             </Button>
-            <div className="text-white/60 font-sans-body text-sm">
+            <div className="text-white/60 font-sans text-sm">
               <span className="line-through mr-2">R$97,00</span>
               <span className="text-white font-bold text-lg">R$19,90</span>
             </div>
@@ -144,7 +144,7 @@ const HeroSection = () => {
             <div className="w-full h-2 bg-white/10 rounded-full overflow-hidden">
               <div className="h-full bg-gradient-to-r from-coral to-secondary rounded-full" style={{ width: "23%" }} />
             </div>
-            <p className="text-xs text-white/50 mt-1.5 font-sans-body">
+            <p className="text-xs text-white/50 mt-1.5 font-sans">
               🔥 Lote 1 — 23% das vagas já preenchidas
             </p>
           </div>

@@ -33,14 +33,14 @@ const ProblemSection = () => {
         <h2 className="text-2xl md:text-4xl font-serif text-center mb-4 text-foreground">
           A produtividade feminina funciona diferente
         </h2>
-        <p className="text-center text-muted-foreground font-sans-body mb-10 max-w-xl mx-auto">
+        <p className="text-center text-muted-foreground font-sans mb-10 max-w-xl mx-auto">
           Você não é improdutiva. Você só está tentando seguir um modelo que <strong className="font-semibold text-foreground">não foi feito para o seu corpo</strong>.
         </p>
         <ul className="space-y-4 max-w-lg mx-auto">
           {pains.map((pain, i) =>
           <li
             key={pain.id}
-            className="flex items-start gap-3 font-sans-body text-foreground/85 transition-all duration-500"
+            className="flex items-start gap-3 font-sans text-foreground/85 transition-all duration-500"
             style={{ transitionDelay: visible ? `${i * 100}ms` : "0ms", opacity: visible ? 1 : 0, transform: visible ? "translateX(0)" : "translateX(-16px)" }}>
             
               <span className="text-primary mt-0.5 shrink-0">✕</span>

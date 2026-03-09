@@ -27,7 +27,7 @@ const WhatYouLearn = () => {
           O que você vai aprender
         </h2>
 
-        <p className="text-center text-sm md:text-base text-white/60 font-sans-body leading-relaxed max-w-2xl mx-auto mb-12">
+        <p className="text-center text-sm md:text-base text-white/60 font-sans leading-relaxed max-w-2xl mx-auto mb-12">
           Conheça e aprenda a identificar cada fase do seu ciclo — e como ajustar sua rotina, energia e foco em cada momento do mês.
         </p>
 
@@ -42,7 +42,7 @@ const WhatYouLearn = () => {
                 <item.icon className="w-5 h-5 text-coral" />
               </div>
               <h3 className="font-serif text-base mb-2 text-primary-foreground">{item.title}</h3>
-              <p className="text-sm text-white/60 font-sans-body leading-relaxed">{item.desc}</p>
+              <p className="text-sm text-white/60 font-sans leading-relaxed">{item.desc}</p>
             </div>
           ))}
         </div>
@@ -57,7 +57,7 @@ const WhatYouLearn = () => {
           {tags.map((tag, i) => (
             <span
               key={tag}
-              className="inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm text-white/80 font-sans-body transition-all duration-500"
+              className="inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm text-white/80 font-sans transition-all duration-500"
               style={{ transitionDelay: visible ? `${600 + i * 80}ms` : "0ms", opacity: visible ? 1 : 0, transform: visible ? "translateY(0)" : "translateY(12px)" }}
             >
               <Sparkles className="w-3.5 h-3.5 text-coral shrink-0" />
@@ -67,7 +67,7 @@ const WhatYouLearn = () => {
         </div>
 
         {/* Reforço de transformação */}
-        <p className="text-center text-sm text-coral/80 font-sans-body mt-10 tracking-wide">
+        <p className="text-center text-sm text-coral/80 font-sans mt-10 tracking-wide">
           Resultado: mais equilíbrio, produtividade e leveza ao longo do mês.
         </p>
       </div>

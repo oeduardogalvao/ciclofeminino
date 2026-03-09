@@ -25,7 +25,7 @@ const Index = () => {
       <FAQSection />
       <StickyBar />
 
-      <footer className="py-8 text-center text-xs text-muted-foreground font-sans-body border-t border-border">
+      <footer className="py-8 text-center text-xs text-muted-foreground font-sans border-t border-border">
         © 2026 Mente, Corpo e Emoções · Todos os direitos reservados
       </footer>
     </main>

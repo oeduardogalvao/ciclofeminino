@@ -38,7 +38,7 @@ const ForWhoSection = () => {
           {audience.map((item, i) =>
           <li
             key={item.id}
-            className="flex items-start gap-3 font-sans-body text-foreground/90 transition-all duration-500"
+            className="flex items-start gap-3 font-sans text-foreground/90 transition-all duration-500"
             style={{ transitionDelay: visible ? `${i * 100}ms` : "0ms", opacity: visible ? 1 : 0, transform: visible ? "translateX(0)" : "translateX(-16px)" }}>
             
               <Check className="w-5 h-5 text-accent mt-0.5 shrink-0" />

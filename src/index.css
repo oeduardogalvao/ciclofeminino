@@ -74,16 +74,6 @@
   }
 }
 
-@layer utilities {
-  .font-serif-display {
-    font-family: 'IvyPresto Display', 'Playfair Display', serif;
-  }
-
-  .font-sans-body {
-    font-family: 'Inter', sans-serif;
-  }
-}
-
 @layer components {
   .section-padding {
     @apply px-5 py-16 md:px-8 md:py-24 lg:px-16;

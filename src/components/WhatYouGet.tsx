@@ -21,7 +21,7 @@ const WhatYouGet = () => {
           {items.map((item, i) =>
           <li
             key={item}
-            className="flex items-start gap-3 font-sans-body text-foreground/90 transition-all duration-500"
+            className="flex items-start gap-3 font-sans text-foreground/90 transition-all duration-500"
             style={{ transitionDelay: visible ? `${i * 100}ms` : "0ms", opacity: visible ? 1 : 0, transform: visible ? "translateX(0)" : "translateX(-16px)" }}>
             
               <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center shrink-0 mt-0.5">
