@@ -5,6 +5,7 @@ import { useUTM } from "@/hooks/useUTM";
 
 const OfferSection = () => {
   const { ref, visible } = useScrollReveal();
+  const { appendUTM } = useUTM();
   const transformationItems = [
     {
       id: "energia",
