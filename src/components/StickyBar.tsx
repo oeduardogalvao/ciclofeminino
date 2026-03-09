@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import { useUTM } from "@/hooks/useUTM";
 
 const StickyBar = () => {
   const [visible, setVisible] = useState(false);
+  const { appendUTM } = useUTM();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,7 +23,7 @@ const StickyBar = () => {
           Garanta sua vaga no <strong className="font-serif">Lote 1</strong>
         </p>
         <Button variant="cta" className="px-6 py-5 shrink-0 text-sm bg-accent text-accent-foreground hover:bg-accent/85" asChild>
-          <a href="https://pay.hotmart.com/B104628606K?off=ajvkspu0&checkoutMode=10&utm_source=site&utm_medium=cta&utm_campaign=imersao&utm_content=sticky_bar" target="_blank" rel="noopener noreferrer">Entrar na imersão — R$19,90</a>
+          <a href={appendUTM("https://pay.hotmart.com/B104628606K?off=ajvkspu0&checkoutMode=10&utm_source=site&utm_medium=cta&utm_campaign=imersao&utm_content=sticky_bar")} target="_blank" rel="noopener noreferrer">Entrar na imersão — R$19,90</a>
         </Button>
       </div>
     </div>

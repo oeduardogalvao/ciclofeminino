@@ -1,9 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Sparkles } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
+import { useUTM } from "@/hooks/useUTM";
 
 const OfferSection = () => {
   const { ref, visible } = useScrollReveal();
+  const { appendUTM } = useUTM();
   const transformationItems = [
     {
       id: "energia",
@@ -105,7 +107,7 @@ const OfferSection = () => {
           </p>
 
           <Button variant="cta" size="lg" className="px-12 py-6 text-lg w-full sm:w-auto bg-accent text-accent-foreground hover:bg-accent/85" asChild>
-            <a href="https://pay.hotmart.com/B104628606K?off=ajvkspu0&checkoutMode=10&utm_source=site&utm_medium=cta&utm_campaign=imersao&utm_content=oferta" target="_blank" rel="noopener noreferrer">
+            <a href={appendUTM("https://pay.hotmart.com/B104628606K?off=ajvkspu0&checkoutMode=10&utm_source=site&utm_medium=cta&utm_campaign=imersao&utm_content=oferta")} target="_blank" rel="noopener noreferrer">
               Garantir minha vaga
             </a>
           </Button>
