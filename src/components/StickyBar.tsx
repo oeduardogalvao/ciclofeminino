@@ -4,6 +4,7 @@ import { useUTM } from "@/hooks/useUTM";
 
 const StickyBar = () => {
   const [visible, setVisible] = useState(false);
+  const { appendUTM } = useUTM();
 
   useEffect(() => {
     const handleScroll = () => {
