@@ -103,18 +103,18 @@ const HeroSection = () => {
       {/* ===== MOBILE: stacked layout ===== */}
       <div className="md:hidden flex flex-col">
         {/* Top bar */}
-        <div className="bg-brown-dark px-[2.5vw] pt-5 pb-4 border-b border-white/10 text-center">
+        <div className="bg-brown-dark px-[5vw] pt-5 pb-4 border-b border-white/10 text-center">
           <p className="text-xs font-sans tracking-wide text-white/90 font-bold">
             ✦ Imersão Ciclo Feminino & Produtividade
           </p>
           <div className="flex items-center justify-center gap-1.5 text-xs text-white/60 font-sans mt-1">
             <Calendar className="w-3.5 h-3.5" />
-            <span>23 de Março · 19h às 23h</span>
+            <span>23 de Março · 19h30 às 23h</span>
           </div>
         </div>
 
         {/* Text block with brown background */}
-        <div className="bg-brown-dark px-[2.5vw] pt-8 pb-8 relative z-10">
+        <div className="bg-brown-dark px-[5vw] pt-8 pb-8 relative z-10">
           <h1 className="text-[1.6rem] font-serif leading-snug mb-4 text-white">
             Acabe com a culpa e a exaustão de não conseguir manter o mesmo ritmo todos os dias.
           </h1>
