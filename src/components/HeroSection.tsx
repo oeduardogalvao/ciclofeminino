@@ -24,6 +24,7 @@ const bullets = [
 
 
 const HeroSection = () => {
+  const { appendUTM } = useUTM();
   return (
     <section className="relative overflow-hidden">
       {/* ===== DESKTOP: original layout ===== */}
