@@ -60,7 +60,7 @@ const OfferSection = () => {
           </div>
 
           <Button variant="cta" size="lg" className="px-12 py-6 text-lg w-full sm:w-auto bg-accent text-accent-foreground hover:bg-accent/85" asChild>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://pay.hotmart.com/B104628606K?off=ajvkspu0&checkoutMode=10&utm_source=site&utm_medium=cta&utm_campaign=imersao&utm_content=oferta" target="_blank" rel="noopener noreferrer">
               Garantir minha vaga
             </a>
           </Button>
