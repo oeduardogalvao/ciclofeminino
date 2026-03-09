@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Sparkles } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
+import { useUTM } from "@/hooks/useUTM";
 
 const OfferSection = () => {
   const { ref, visible } = useScrollReveal();
