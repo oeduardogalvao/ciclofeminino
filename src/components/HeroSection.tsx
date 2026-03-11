@@ -85,15 +85,15 @@ const HeroSection = () => {
               </Button>
               <div className="text-white/60 font-sans text-sm">
                 <span className="line-through mr-2">R$97,00</span>
-                <span className="text-white font-bold text-lg">R$19,90</span>
+                <span className="text-white font-bold text-lg">R$24,90</span>
               </div>
             </div>
             <div className="max-w-sm">
               <div className="w-full h-2 bg-white/10 rounded-full overflow-hidden">
-                <div className="h-full bg-gradient-to-r from-coral to-secondary rounded-full transition-all duration-1000" style={{ width: "87%" }} />
+                <div className="h-full bg-gradient-to-r from-coral to-secondary rounded-full transition-all duration-1000" style={{ width: "10%" }} />
               </div>
               <p className="text-xs text-white/50 mt-1.5 font-sans">
-                🔥 Lote 1 — 87% das vagas já preenchidas
+                🔥 Lote 2 — 10% das vagas já preenchidas
               </p>
             </div>
           </div>
@@ -138,16 +138,16 @@ const HeroSection = () => {
             </Button>
             <div className="text-white/60 font-sans text-sm">
               <span className="line-through mr-2">R$97,00</span>
-              <span className="text-white font-bold text-lg">R$19,90</span>
+              <span className="text-white font-bold text-lg">R$24,90</span>
             </div>
           </div>
 
           <div className="max-w-xs">
             <div className="w-full h-2 bg-white/10 rounded-full overflow-hidden">
-              <div className="h-full bg-gradient-to-r from-coral to-secondary rounded-full" style={{ width: "87%" }} />
+              <div className="h-full bg-gradient-to-r from-coral to-secondary rounded-full" style={{ width: "10%" }} />
             </div>
             <p className="text-xs text-white/50 mt-1.5 font-sans">
-              🔥 Lote 1 — 87% das vagas já preenchidas
+              🔥 Lote 2 — 10% das vagas já preenchidas
             </p>
           </div>
         </div>
