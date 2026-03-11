@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Check, Calendar } from "lucide-react";
 import daiHero from "@/assets/dai-hero.png";
 import { useUTM } from "@/hooks/useUTM";
+import { useLotProgress } from "@/hooks/useLotProgress";
 
 const bullets = [
   {
