@@ -124,7 +124,7 @@ const OfferSection = () => {
 
           {/* Micro-elemento de escassez */}
           <p className="text-xs font-sans text-destructive mt-4 font-medium">
-            Primeiro lote já começou a preencher
+            Segundo lote já começou a preencher
           </p>
         </div>
       </div>
