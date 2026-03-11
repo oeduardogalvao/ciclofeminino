@@ -97,7 +97,7 @@ const OfferSection = () => {
             <span className="text-sm text-muted-foreground line-through font-sans">De R$97,00</span>
           </div>
           <div className="mb-3">
-            <span className="text-5xl md:text-6xl font-serif font-bold text-primary">R$19,90</span>
+            <span className="text-5xl md:text-6xl font-serif font-bold text-primary">R$24,90</span>
           </div>
           <p className="text-sm text-muted-foreground font-sans mb-8">
             Pagamento unico para participar da imersao ao vivo.
