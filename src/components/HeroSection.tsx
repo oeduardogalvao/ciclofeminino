@@ -146,10 +146,10 @@ const HeroSection = () => {
 
           <div className="max-w-xs">
             <div className="w-full h-2 bg-white/10 rounded-full overflow-hidden">
-              <div className="h-full bg-gradient-to-r from-coral to-secondary rounded-full" style={{ width: "10%" }} />
+              <div className="h-full bg-gradient-to-r from-coral to-secondary rounded-full" style={{ width: `${percent}%` }} />
             </div>
             <p className="text-xs text-white/50 mt-1.5 font-sans">
-              🔥 Lote 2 — 10% das vagas já preenchidas
+              🔥 Lote 2 — {percent}% das vagas já preenchidas
             </p>
           </div>
         </div>
