@@ -26,6 +26,7 @@ const bullets = [
 
 const HeroSection = () => {
   const { appendUTM } = useUTM();
+  const percent = useLotProgress();
   return (
     <section className="relative overflow-hidden">
       {/* ===== DESKTOP: original layout ===== */}
