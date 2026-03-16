@@ -51,7 +51,7 @@ const StickyBar = () => {
           )}
         </div>
         <Button variant="cta" className="w-full px-5 py-4 shrink-0 text-[13px] bg-accent text-accent-foreground hover:bg-accent/85 sm:w-auto sm:px-6 sm:py-5 sm:text-sm" asChild>
-          <a href={appendUTM("https://pay.hotmart.com/B104628606K?off=ajvkspu0&checkoutMode=10")} target="_blank" rel="noopener noreferrer">Entrar na imersão — R$24,90</a>
+          <a href={appendUTM("https://pay.hotmart.com/B104628606K?off=ajvkspu0&checkoutMode=10")} target="_blank" rel="noopener noreferrer">Entrar na imersão — R$29,90</a>
         </Button>
       </div>
     </div>
