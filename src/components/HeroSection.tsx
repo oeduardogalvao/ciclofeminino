@@ -140,7 +140,7 @@ const HeroSection = () => {
             </Button>
             <div className="text-white/60 font-sans text-sm">
               <span className="line-through mr-2">R$97,00</span>
-              <span className="text-white font-bold text-lg">R$24,90</span>
+              <span className="text-white font-bold text-lg">R$29,90</span>
             </div>
           </div>
 
