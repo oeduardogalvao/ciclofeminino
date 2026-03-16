@@ -1,11 +1,9 @@
 import { useState, useEffect } from "react";
 
 // Lote 2: progresso dinâmico de 10% a 100%
-// Início: 10 de março de 2026 às 00h
-// Fim: 13 de março de 2026 às 09h
-const LOT_START = new Date("2026-03-13T00:00:00-03:00").getTime();
-const LOT_END = new Date("2026-03-14T09:00:00-03:00").getTime();
-const MIN_PERCENT = 86;
+const LOT_START = new Date("2026-03-16T00:00:00-03:00").getTime();
+const LOT_END = new Date("2026-03-17T09:00:00-03:00").getTime();
+const MIN_PERCENT = 10;
 const MAX_PERCENT = 100;
 
 export function useLotProgress() {
