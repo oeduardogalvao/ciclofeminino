@@ -50,7 +50,7 @@ const OfferSection = () => {
 
           <div className="relative inline-flex items-center gap-2 bg-primary text-primary-foreground text-xs font-bold uppercase tracking-[0.22em] px-4 py-1.5 rounded-full mb-4 font-sans">
             <Sparkles className="h-3.5 w-3.5" />
-            Valor especial de terceiro lote
+            Valor especial de quarto lote
           </div>
 
           <h2 className="text-3xl md:text-4xl font-serif mb-4 text-foreground leading-tight">
