@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 
-// Lote 3: progresso dinâmico de 10% a 100%
-const LOT_START = new Date("2026-03-16T00:00:00-03:00").getTime();
-const LOT_END = new Date("2026-03-17T09:00:00-03:00").getTime();
+// Lote 4: progresso dinâmico de 10% a 100%
+const LOT_START = new Date("2026-03-17T09:00:00-03:00").getTime();
+const LOT_END = new Date("2026-03-20T09:00:00-03:00").getTime();
 const MIN_PERCENT = 10;
 const MAX_PERCENT = 100;
 
