@@ -87,7 +87,7 @@ const HeroSection = () => {
               </Button>
               <div className="text-white/60 font-sans text-sm">
                 <span className="line-through mr-2">R$97,00</span>
-                <span className="text-white font-bold text-lg">R$37,90</span>
+                <span className="text-white font-bold text-lg">R$47,90</span>
               </div>
             </div>
             <div className="max-w-sm">
@@ -95,7 +95,7 @@ const HeroSection = () => {
                 <div className="h-full bg-gradient-to-r from-coral to-secondary rounded-full transition-all duration-1000" style={{ width: `${percent}%` }} />
               </div>
               <p className="text-xs text-white/50 mt-1.5 font-sans">
-                🔥 Lote 4 — {percent}% das vagas já preenchidas
+                🔥 Lote 5 — {percent}% das vagas já preenchidas
               </p>
             </div>
           </div>
@@ -140,7 +140,7 @@ const HeroSection = () => {
             </Button>
             <div className="text-white/60 font-sans text-sm">
               <span className="line-through mr-2">R$97,00</span>
-              <span className="text-white font-bold text-lg">R$37,90</span>
+              <span className="text-white font-bold text-lg">R$47,90</span>
             </div>
           </div>
 
@@ -149,7 +149,7 @@ const HeroSection = () => {
               <div className="h-full bg-gradient-to-r from-coral to-secondary rounded-full" style={{ width: `${percent}%` }} />
             </div>
             <p className="text-xs text-white/50 mt-1.5 font-sans">
-              🔥 Lote 4 — {percent}% das vagas já preenchidas
+              🔥 Lote 5 — {percent}% das vagas já preenchidas
             </p>
           </div>
         </div>

@@ -50,7 +50,7 @@ const OfferSection = () => {
 
           <div className="relative inline-flex items-center gap-2 bg-primary text-primary-foreground text-xs font-bold uppercase tracking-[0.22em] px-4 py-1.5 rounded-full mb-4 font-sans">
             <Sparkles className="h-3.5 w-3.5" />
-            Valor especial de quarto lote
+            Valor especial de quinto lote
           </div>
 
           <h2 className="text-3xl md:text-4xl font-serif mb-4 text-foreground leading-tight">
@@ -97,7 +97,7 @@ const OfferSection = () => {
             <span className="text-sm text-muted-foreground line-through font-sans">De R$97,00</span>
           </div>
           <div className="mb-3">
-            <span className="text-5xl md:text-6xl font-serif font-bold text-primary">R$37,90</span>
+            <span className="text-5xl md:text-6xl font-serif font-bold text-primary">R$47,90</span>
           </div>
           <p className="text-sm text-muted-foreground font-sans mb-8">
             Pagamento unico para participar da imersao ao vivo.
@@ -124,7 +124,7 @@ const OfferSection = () => {
 
           {/* Micro-elemento de escassez */}
           <p className="text-xs font-sans text-destructive mt-4 font-medium">
-            Quarto lote já começou a preencher
+            Quinto lote já começou a preencher
           </p>
         </div>
       </div>
