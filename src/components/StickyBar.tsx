@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { useUTM } from "@/hooks/useUTM";
 
-const DEADLINE = new Date("2026-03-19T23:59:59-03:00").getTime();
+const DEADLINE = new Date("2026-03-22T23:59:59-03:00").getTime();
 
 function useCountdown() {
   const calc = () => {
